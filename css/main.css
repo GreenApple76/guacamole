@@ -29,8 +29,24 @@ header {
 .carousel-inner {
   text-align: center;
 }
+
+/* form styles */
+form {
+  margin-top: 20px;
+}
+
+input[type="text"]
+{
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group-btn {
+  margin-top: 20px !important;
+}
+
 /* 
-Bootstrap Navigation Classes
+bootstrap navbar styles
 https://work.smarchal.com/twbscolor/4.0.0-alpha.6/css/00000047c738e2f067addb151
 */
 
