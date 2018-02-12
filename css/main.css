@@ -17,16 +17,23 @@ header {
     top: 0;
     left: 0;
 }
+
 .hero {
     color: #fff;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 900;
     letter-spacing: .05em;
 }
 
-/* https://work.smarchal.com/twbscolor/4.0.0-alpha.6/css/00000047c738e2f067addb151
+.carousel-inner {
+  text-align: center;
+}
+/* 
+Bootstrap Navigation Classes
+https://work.smarchal.com/twbscolor/4.0.0-alpha.6/css/00000047c738e2f067addb151
 */
+
 .navbar {
     background-color: #000000;
   }
@@ -108,4 +115,39 @@ header {
       background-color: #47c738;
     }
   }
+
+  /*
+    media queries
+  */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .carousel-inner img {
+    width: 576px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .carousel-inner img {
+    width: 768px;
+  } 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .carousel-inner img {
+    width: 992px;
+  } 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .carousel-inner img {
+    width: 1200px;
+  }
+ }
   
