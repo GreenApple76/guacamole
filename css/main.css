@@ -1,6 +1,7 @@
 body {
     background-color: #BBC450 !important;
     font-size: 20px !important;
+    color: #333 !important;
 }
 
 header {
@@ -43,11 +44,12 @@ input[type="text"]
   margin-bottom: 20px;
 }
 
-button {
+.form-btn {
   background-color: darkolivegreen !important;
+  color: #333;
 }
 
-button:hover {
+.form-btn:hover {
   background-color: #addb15 !important;
 }
 
