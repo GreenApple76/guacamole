@@ -141,7 +141,7 @@ https://work.smarchal.com/twbscolor/4.0.0-alpha.6/css/00000047c738e2f067addb151
   }
 
   /*
-    media queries
+    media queries for carousel
   */
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -174,4 +174,13 @@ No media query since this is the default in Bootstrap */
     width: 1200px;
   }
  }
-  
+
+/* source: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
+*/
+.custom-toggler.navbar-toggler {
+  border-color: rgb(85,107,47) !important;
+  outline-color: #addb15 !important;
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(85,107,47, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
