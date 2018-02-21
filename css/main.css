@@ -1,3 +1,7 @@
+html, body, header {
+  height: 100%;
+}
+
 body {
     background-color: #BBC450;
     font-size: 20px;
@@ -6,7 +10,6 @@ body {
 
 header {
     padding: 0 15px;
-    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.1)), url("../img/nachos-266222-guacomole-pixabay.jpg");
     background-position: center center;
     background-size: cover;
