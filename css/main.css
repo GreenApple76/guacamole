@@ -6,6 +6,7 @@ body {
     background-color: #BBC450;
     font-size: 20px;
     color: #333;
+    margin-top: 60px;
 }
 
 header {
@@ -13,6 +14,14 @@ header {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.1)), url("../img/nachos-266222-guacomole-pixabay.jpg");
     background-position: center center;
     background-size: cover;
+    color: #fff;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: .05em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -21,14 +30,6 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.hero {
-    color: #fff;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3em;
-    font-weight: 900;
-    letter-spacing: .05em;
 }
 
 .carousel-inner {
