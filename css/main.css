@@ -211,13 +211,13 @@ ul.leaders li:after {
 
 ul.leaders span:first-child {
   padding-right: 0.33em;
-  background: white
+  background-color: #F8F9FA;
 }
 
 ul.leaders span + span {
   float: right;
   padding-left: 0.33em;
-  background: white;
+  background-color: #F8F9FA;
   position: relative;
   z-index: 1
 }
