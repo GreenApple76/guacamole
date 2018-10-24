@@ -221,3 +221,21 @@ ul.leaders span + span {
   position: relative;
   z-index: 1
 }
+
+footer {
+  background-color: #000;
+  color: #777;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+footer a {
+    color: #e2f067;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+  color: #addb15;
+  text-decoration: none;
+}
