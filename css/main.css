@@ -145,6 +145,16 @@ https://work.smarchal.com/twbscolor/4.0.0-alpha.6/css/00000047c738e2f067addb151
     }
   }
 
+/* source: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
+*/
+.custom-toggler.navbar-toggler {
+  border-color: rgb(85,107,47);
+  outline-color: #addb15;
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(85,107,47, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
   /*
     media queries for carousel
   */
@@ -178,14 +188,36 @@ No media query since this is the default in Bootstrap */
   .carousel-inner img {
     width: 1200px;
   }
- }
-
-/* source: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
-*/
-.custom-toggler.navbar-toggler {
-  border-color: rgb(85,107,47);
-  outline-color: #addb15;
 }
-.custom-toggler .navbar-toggler-icon {
-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(85,107,47, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+
+/* dot leaders for menu items */
+ul.leaders {
+  margin-top: 1em;
+  max-width: 40em;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none}
+
+ul.leaders li:after {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.leaders span:first-child {
+  padding-right: 0.33em;
+  background: white
+}
+
+ul.leaders span + span {
+  float: right;
+  padding-left: 0.33em;
+  background: white;
+  position: relative;
+  z-index: 1
 }
